@@ -2,10 +2,12 @@
 datasets/
 Class Scripts/
 .venv/
+.venv copy/
 logs/
 
 # Ensure the directories themselves are ignored
 datasets/**
 Class Scripts/**
 .venv/**
+.venv copy/**
 logs/**
