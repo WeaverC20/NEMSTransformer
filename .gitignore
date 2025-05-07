@@ -1,0 +1,11 @@
+# Ignore everything in the specified directories
+datasets/
+Class Scripts/
+.venv/
+logs/
+
+# Ensure the directories themselves are ignored
+datasets/**
+Class Scripts/**
+.venv/**
+logs/**
