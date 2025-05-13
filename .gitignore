@@ -4,6 +4,7 @@ Class Scripts/
 .venv/
 .venv copy/
 logs/
+generated_molecules/
 
 # Ensure the directories themselves are ignored
 datasets/**
@@ -11,3 +12,4 @@ Class Scripts/**
 .venv/**
 .venv copy/**
 logs/**
+generated_molecules/
