@@ -27,6 +27,17 @@ Predicts molecular properties from SMILES:
 - Energy gap  
 - Isotropic polarizability (α)
 
+### Forward Model Training Loss  
+<p align="center">
+  <img src="assets/TransformerRegressor train loss.PNG" width="65%">
+</p>
+
+### Property Prediction Performance (R² Scores)  
+<p align="center">
+  <img src="assets/TransformerRegressor predicted vs true plot.PNG" width="70%">
+</p>
+
+
 Achieves:
 - **R² = 0.93 for gap**  
 - **R² = 0.97 for polarizability**
@@ -37,37 +48,21 @@ Generates new molecules conditioned on desired properties:
 - Preserves structural features  
 - Generates **91 new high-performing SAM candidates**
 
-Together, these models provide a framework for high-throughput SAM exploration for tunneling NEM switches.
-
----
-
-## Key Results
-
-### Forward Model Training Loss  
-<p align="center">
-  <img src="assets/TransformerRegressor train loss.PNG" width="65%">
-</p>
-
----
-
 ### Inverse Model Training Loss  
 <p align="center">
   <img src="assets/smilesTransformerTrainingTestLoss.PNG" width="65%">
 </p>
 
----
-
-### Property Prediction Performance (R² Scores)  
-<p align="center">
-  <img src="assets/TransformerRegressor predicted vs true plot.PNG" width="70%">
-</p>
-
----
-
 ### Molecule Reconstruction (Known → Predicted)  
 <p align="center">
   <img src="assets/generatedMoleculesImage.png" width="70%">
 </p>
+
+Together, these models provide a framework for high-throughput SAM exploration for tunneling NEM switches.
+
+---
+
+## Key Results
 
 ---
 
