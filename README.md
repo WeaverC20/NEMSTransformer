@@ -45,14 +45,14 @@ Together, these models provide a framework for high-throughput SAM exploration f
 
 ### Forward Model Training Loss  
 <p align="center">
-  <img src="TransformerRegressor train loss.PNG" width="65%">
+  <img src="assets/TransformerRegressor train loss.PNG" width="65%">
 </p>
 
 ---
 
 ### Inverse Model Training Loss  
 <p align="center">
-  <img src="smilesTransformerTrainingTestLoss.PNG" width="65%">
+  <img src="assets/smilesTransformerTrainingTestLoss.PNG" width="65%">
 </p>
 
 ---
